@@ -37,6 +37,11 @@ h2 {
   color: #000000; /* Set the text color to black */
 }
 
+h3 {
+  color: #000000; /* Set the text color to black */
+  font-weight: normal; /* Remove bold font weight */
+}
+
 button {
   border: none;
   padding: 12px 20px; /* Increase the padding for more visual appeal */
