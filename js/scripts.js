@@ -14,4 +14,11 @@ function save() {
     saveEl.textContent += countStr
     count = 0;
     countEl.textContent = count;
-  }
+}
+
+  function reset() {
+    // Reset the count to 0
+    document.getElementById("count-el").textContent = "0";
+    // Clear the saved entries
+    document.getElementById("save-el").textContent = "Previous entries: ";
+}
